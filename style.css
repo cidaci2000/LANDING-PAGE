@@ -1,0 +1,135 @@
+
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+
+}
+
+body {font-size: 100%;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-family: "Noto Sans script=latin rev=3";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 32px;
+    
+}
+
+
+
+.botao{
+display: flex;
+gap: 32px;
+}
+.principal{
+    margin-bottom: 48px;
+    border-top: 0.4px solid cornflowerblue;
+    align-items: center;
+
+}
+
+.seccao1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: right;
+    justify-items: space-around;
+
+}
+
+.divisao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.jane{
+    display: block;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: "Noto Sans script=latin rev=3";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 40px;
+    color: black;
+
+}
+
+.comunidade{
+    font-family: "Noto Sans script=latin rev=3";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 25px;
+    color: rgb(5, 5, 5);
+}
+
+.item-botao:hover{ 
+    background-color: rgb(169, 169, 179);    
+    border: none;
+    box-shadow: 4px 5px 4px rgb(3, 53, 145);
+    border-radius: 20px;
+    
+
+}
+.chata:{
+    background-color: darkcyan;
+    width: 180px;
+    height: 60px;    
+    border: none;
+    box-shadow: 4px 5px 4px rgb(3, 53, 145);
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+
+.imagem-jane{
+    display: block;
+    margin: 0 auto;
+    }
+
+    .secundaria{ 
+    padding: 10px;
+     margin-bottom: 18px;
+     border-top: 0.4px solid cornflowerblue;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 14px;
+    
+
+    }
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 14px;
+        border-top: 0.4px solid cornflowerblue;
+        align-items: center;
+        font-family: "Noto Sans script=latin rev=3";
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: initial;
+        font-size: 30px;
+    
+
+    }
+    .imagem-cida{
+        display: block;
+        margin: 0 auto;
+    }
